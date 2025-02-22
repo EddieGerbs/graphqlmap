@@ -11,7 +11,7 @@ Two versions of the image are available:
 ## How to Use
 
 ### **1. Pull the Image**
-If the image is hosted on GitHub Container Registry (GHCR), you can pull the desired version using:
+The image is hosted on GitHub Container Registry (GHCR), you can pull the desired version using:
 ```sh
 # Full version
 sudo docker pull ghcr.io/eddiegerbs/graphqlmap/graphqlmap:3.6
