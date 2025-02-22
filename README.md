@@ -14,10 +14,10 @@ Two versions of the image are available:
 If the image is hosted on GitHub Container Registry (GHCR), you can pull the desired version using:
 ```sh
 # Full version
-sudo docker pull ghcr.io/eddiegerbs/graphqlmap:3.6
+sudo docker pull ghcr.io/eddiegerbs/graphqlmap/graphqlmap:3.6
 
 # Slim version
-sudo docker pull ghcr.io/eddiegerbs/graphqlmap:3.6-slim
+sudo docker pull ghcr.io/eddiegerbs/graphqlmap/graphqlmap:3.6-slim
 ```
 
 ### **2. Run GraphQLmap**
