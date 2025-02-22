@@ -6,15 +6,9 @@ This Docker image provides a stable environment for running [GraphQLmap](https:/
 ## How to Use
 
 ### **1. Pull the Image**
-If the image is hosted on GitHub Container Registry (GHCR), you can pull it using:
+The image is hosted on GitHub Container Registry (GHCR), you can pull it using:
 ```sh
-sudo docker pull ghcr.io/YOUR_GITHUB_USERNAME/graphqlmap:3.6
-```
-
-If you downloaded the image file from GitHub, load it manually:
-```sh
-wget https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/raw/main/graphqlmap.tar
-sudo docker load -i graphqlmap.tar
+sudo docker pull ghcr.io/eddiegerbs/graphqlmap:3.6
 ```
 
 ### **2. Run GraphQLmap**
