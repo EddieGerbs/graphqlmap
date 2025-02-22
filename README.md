@@ -15,9 +15,14 @@ The image is hosted on GitHub Container Registry (GHCR), you can pull the desire
 ```sh
 # Full version
 sudo docker pull ghcr.io/eddiegerbs/graphqlmap/graphqlmap:3.6
+# Shorten the tag
+sudo docker tag ghcr.io/eddiegerbs/graphqlmap/graphqlmap:3.6 graphqlmap:3.6
 
 # Slim version
 sudo docker pull ghcr.io/eddiegerbs/graphqlmap/graphqlmap:3.6-slim
+# Shorten the tag
+sudo docker tag ghcr.io/eddiegerbs/graphqlmap/graphqlmap:3.6-slim graphqlmap:3.6-slim
+
 ```
 
 ### **2. Run GraphQLmap**
